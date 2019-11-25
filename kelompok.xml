@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+        <!-- tree kelompok -->
+        <record id="view_management_kelompok_tree" model="ir.ui.view">
+            <field name="name">Kelompok Perangkat.tree</field>
+            <field name="model">management.kelompok</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="kelompok">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="no_kelompok_perangkat"/>
+                    <field name="nama_kelompok_perangkat"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

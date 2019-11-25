@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+        <!--capacity-->
+        <record id="view_management_capacity_tree" model="ir.ui.view">
+            <field name="name">Capacity.tree</field>
+            <field name="model">management.capacity</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="capacity">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="used"/>
+                    <field name="available"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

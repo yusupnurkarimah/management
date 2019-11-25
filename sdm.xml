@@ -1,0 +1,26 @@
+<odoo>
+    <data>
+        <!-- tree sdm -->
+        <record id="view_management_sdm_tree" model="ir.ui.view">
+            <field name="name">SDM.tree</field>
+            <field name="model">management.sdm</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="SDM">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="kode"/>
+                    <field name="kelamin"/>
+                    <field name="usia"/>
+                    <field name="pendidikan"/>
+                    <field name="telp"/>
+                    <field name="email"/>
+                    <field name="file"/>
+                    <field name="pengalaman"/>
+                    <field name="catatan"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

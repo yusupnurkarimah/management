@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <!-- tree kode -->
+        <record id="view_management_kode_tree" model="ir.ui.view">
+            <field name="name">Kode Perangkat.tree</field>
+            <field name="model">management.kode</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="kode">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="no_perangkat"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

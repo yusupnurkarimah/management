@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <!-- tree unit -->
+        <record id="view_management_unit_tree" model="ir.ui.view">
+            <field name="name">Data Unit.tree</field>
+            <field name="model">management.unit</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="unit">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="no_unit"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

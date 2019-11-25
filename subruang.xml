@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+        <!-- tree subruang -->
+        <record id="view_management_subruang_tree" model="ir.ui.view">
+            <field name="name">Data Subruang.tree</field>
+            <field name="model">management.subruang</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="subruang">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="no_subruang"/>
+                    <field name="nama_subruang"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

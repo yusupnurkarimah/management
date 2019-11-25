@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+        <!--agenda-->
+        <record id="view_management_agenda_tree" model="ir.ui.view">
+            <field name="name">Agenda.tree</field>
+            <field name="model">management.agenda</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="agenda">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="tgl_mulai"/>
+                    <field name="tgl_selesai"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

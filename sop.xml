@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+        <!--sop-->
+        <record id="view_management_sop_tree" model="ir.ui.view">
+            <field name="name">SOP.tree</field>
+            <field name="model">management.sop</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="sop">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="code"/>
+                    <field name="date_issued"/>
+                    <field name="date_review"/>
+                    <field name="date_revised"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

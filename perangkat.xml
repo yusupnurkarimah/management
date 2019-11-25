@@ -1,0 +1,22 @@
+<odoo>
+    <data>
+        <!-- tree perangkat -->
+        <record id="view_management_perangkat_tree" model="ir.ui.view">
+            <field name="name">Perangkat.tree</field>
+            <field name="model">management.perangkat</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="perangkat">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="cpu"/>
+                    <field name="ram"/>
+                    <field name="disk"/>
+                    <field name="traffic_in_out"/>
+                    <field name="fungsi"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

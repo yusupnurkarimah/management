@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <!-- tree datalokasi -->
+        <record id="view_management_datalokasi_tree" model="ir.ui.view">
+            <field name="name">Data Lokasi.tree</field>
+            <field name="model">management.datalokasi</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="datalokasi">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="no_lokasi"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

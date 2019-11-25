@@ -1,0 +1,25 @@
+<odoo>
+    <data>
+        <!-- tree LAN -->
+        <record id="view_management_lan_tree" model="ir.ui.view">
+            <field name="name">LAN Distribution.tree</field>
+            <field name="model">management.lan</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="lan">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="posisi"/>
+                    <field name="no_reg"/>
+                    <field name="model"/>
+                    <field name="fungsi"/>
+                    <field name="koneksi_list"/>
+                    <field name="distribution"/>
+                    <field name="visit"/>
+                    <field name="note"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

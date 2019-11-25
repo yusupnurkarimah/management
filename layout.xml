@@ -1,0 +1,24 @@
+<odoo>
+    <data>
+        <!-- tree layout -->
+        <record id="view_management_layout_tree" model="ir.ui.view">
+            <field name="name">Layout.tree</field>
+            <field name="model">management.layout</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="layout">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="ruang"/>
+                    <field name="no_reg"/>
+                    <field name="model"/>
+                    <field name="spesifikasi"/>
+                    <field name="fungsi"/>
+                    <field name="visit"/>
+                    <field name="note"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,25 @@
+<odoo>
+    <data>
+        <!-- tree power -->
+        <record id="view_management_power_tree" model="ir.ui.view">
+            <field name="name">Power Distribution.tree</field>
+            <field name="model">management.power</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="power">
+                    <field name="name"/>
+                    <field name="no"/>
+                    <field name="posisi"/>
+                    <field name="no_reg"/>
+                    <field name="model"/>
+                    <field name="fungsi"/>
+                    <field name="koneksi_list"/>
+                    <field name="distribution"/>
+                    <field name="visit"/>
+                    <field name="note"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>
